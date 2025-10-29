@@ -181,3 +181,4 @@ alert(`${getText('errors.insufficientCredits', 'You need')} ${count} ${getText('
 
 下一步建议在浏览器中测试页面，确保所有文本显示正确。
 
+
