@@ -3,3 +3,9 @@
 
 # IDE 文件
 .cursor/
+
+# 测试文件和临时文件
+1.jpg
+response-headers.txt
+response.json
+test-aliyun-api.sh
