@@ -24,7 +24,7 @@ const pages = [
 const languages = [
   { code: 'en', name: '英语' },
   { code: 'zh', name: '简体中文' },
-  { path: 'zh-tw', name: '繁体中文' },
+  { code: 'zh-tw', name: '繁体中文' },
   { code: 'es', name: '西班牙语' },
   { code: 'ja', name: '日语' },
   { code: 'fr', name: '法语' },
@@ -42,6 +42,14 @@ const languages = [
   { code: 'da', name: '丹麦语' },
   { code: 'nl', name: '荷兰语' },
   { code: 'bn', name: '孟加拉语' },
+  { code: 'no', name: '挪威语' },
+  { code: 'fi', name: '芬兰语' },
+  { code: 'pl', name: '波兰语' },
+  { code: 'el', name: '希腊语' },
+  { code: 'he', name: '希伯来语' },
+  { code: 'cs', name: '捷克语' },
+  { code: 'is', name: '冰岛语' },
+  { code: 'hu', name: '匈牙利语' },
 ];
 
 // 随机选择5个页面和5种语言

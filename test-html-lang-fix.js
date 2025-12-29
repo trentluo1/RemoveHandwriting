@@ -26,6 +26,14 @@ const languages = [
   { code: 'da', expected: 'da', dir: 'ltr', name: '丹麦语' },
   { code: 'nl', expected: 'nl', dir: 'ltr', name: '荷兰语' },
   { code: 'bn', expected: 'bn', dir: 'ltr', name: '孟加拉语' },
+  { code: 'no', expected: 'no', dir: 'ltr', name: '挪威语' },
+  { code: 'fi', expected: 'fi', dir: 'ltr', name: '芬兰语' },
+  { code: 'pl', expected: 'pl', dir: 'ltr', name: '波兰语' },
+  { code: 'el', expected: 'el', dir: 'ltr', name: '希腊语' },
+  { code: 'he', expected: 'he', dir: 'rtl', name: '希伯来语' },
+  { code: 'cs', expected: 'cs', dir: 'ltr', name: '捷克语' },
+  { code: 'is', expected: 'is', dir: 'ltr', name: '冰岛语' },
+  { code: 'hu', expected: 'hu', dir: 'ltr', name: '匈牙利语' },
 ];
 
 const pages = ['/', '/pricing', '/upload'];
