@@ -7,7 +7,7 @@
 const pages = [
   { path: '/', name: '首页' },
   { path: '/pricing', name: '定价页' },
-  { path: '/image-handwriting-remover', name: '上传页' },
+  { path: '/upload', name: '上传页' },
   { path: '/blog', name: '博客列表' },
   { path: '/api-doc', name: 'API文档' },
   { path: '/about-us', name: '关于我们' },

@@ -36,7 +36,7 @@ const languages = [
   { code: 'hu', expected: 'hu', dir: 'ltr', name: '匈牙利语' },
 ];
 
-const pages = ['/', '/pricing', '/image-handwriting-remover'];
+const pages = ['/', '/pricing', '/upload'];
 
 const BASE_URL = 'https://removehandwriting.com';
 

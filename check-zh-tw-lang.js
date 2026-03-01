@@ -8,7 +8,7 @@ const BASE_URL = 'https://removehandwriting.com';
 const testPages = [
   '/zh-tw/',
   '/zh-tw/pricing',
-  '/zh-tw/image-handwriting-remover',
+  '/zh-tw/upload',
 ];
 
 async function checkPage(path) {
