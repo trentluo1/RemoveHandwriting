@@ -3,9 +3,9 @@
 set -euo pipefail
 
 # Domain and token for the image processing proxy
-API_DOMAIN="https://happytoou-co-kr-prdcnvqqep.cn-hongkong.fcapp.run"
+API_DOMAIN="https://removehng-proxy-edaftmmmsx.cn-hongkong.fcapp.run"
 API_PATH="/sjccup"
-API_TOKEN="tokenData-067jijcdj71cia70a015b12b01a4"
+API_TOKEN="tokenData-309i4c9128did50i2ij7c0h71fdg"
 
 # Test image file
 IMAGE_FILE="testpaper.jpg"
