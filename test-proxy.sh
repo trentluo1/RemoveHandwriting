@@ -3,9 +3,9 @@
 set -euo pipefail
 
 # Domain and token for the image processing proxy
-API_DOMAIN="https://removehng-proxy-edaftmmmsx.cn-hongkong.fcapp.run"
-API_PATH="/sjccup"
-API_TOKEN="tokenData-309i4c9128did50i2ij7c0h71fdg"
+API_DOMAIN="https://api.removehandwriting.com"
+API_PATH="/backup-proxy"
+API_TOKEN="tokenData-518g978fb95afc2g7hfgfhehic63"
 
 # Test image file
 IMAGE_FILE="testpaper.jpg"
@@ -106,7 +106,6 @@ else
   echo "curl failed with exit code: $curl_status" >&2
   exit "$curl_status"
 fi
-
 
 
 
