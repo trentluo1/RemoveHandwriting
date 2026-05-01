@@ -1,6 +1,9 @@
 # macOS 系统文件
 .DS_Store
 
+# Node.js
+node_modules/
+
 # IDE 文件
 .cursor/
 
