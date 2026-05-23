@@ -12,3 +12,11 @@ node_modules/
 response-headers.txt
 response.json
 test-aliyun-api.sh
+testpaper.jpg
+22.jpeg
+test-*.sh
+assets/__*.png
+assets/browser-screenshot-*.png
+
+# 与 env.local.example 重复的本地文档
+环境变量清单.md
