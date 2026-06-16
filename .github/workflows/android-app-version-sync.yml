@@ -1,0 +1,33 @@
+name: Android App Version Sync
+
+on:
+  pull_request:
+    paths:
+      - 'removehandwriting-mobile/pubspec.yaml'
+      - 'removehandwriting-web/src/lib/app-version-config.ts'
+      - 'scripts/sync-app-version.mjs'
+      - 'package.json'
+  push:
+    branches:
+      - main
+    paths:
+      - 'removehandwriting-mobile/pubspec.yaml'
+      - 'removehandwriting-web/src/lib/app-version-config.ts'
+      - 'scripts/sync-app-version.mjs'
+      - 'package.json'
+
+jobs:
+  check-android-app-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify Android app version sync
+        run: npm run check:android-app-version

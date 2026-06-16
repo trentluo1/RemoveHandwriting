@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "sync:android-app-version": "node scripts/sync-app-version.mjs --platform android",
+    "check:android-app-version": "node scripts/sync-app-version.mjs --platform android --check"
+  },
   "dependencies": {
     "@upstash/redis": "^1.37.0"
   }
